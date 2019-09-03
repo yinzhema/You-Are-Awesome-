@@ -28,8 +28,8 @@ class ViewController: UIViewController {
                       "You Are Tremendous",
                       "You Brighten my day!!",
                       "Hey, fabulous"]
-        let colors=[UIColor.black,
-                    UIColor.blue,
+        let colors=[UIColor.blue,
+                    UIColor.black,
                     UIColor.red,
                     UIColor.brown,
                     UIColor.darkGray,
@@ -43,21 +43,6 @@ class ViewController: UIViewController {
         if index==messages.count{
             index=0
         }
-        
-//        let message1="You Are Awesome!"
-//        let message2="You Are Great!"
-//        let message3="You Are Amazing!"
-//
-//        if messageLabel.text==message1{
-//            messageLabel.text=message2
-//            messageLabel.textColor=UIColor.blue
-//        } else if messageLabel.text==message2{
-//            messageLabel.text=message3
-//            messageLabel.textColor=UIColor.brown
-//        } else{
-//            messageLabel.text=message1
-//            messageLabel.textColor=UIColor.red
-//        }
     }
     
 }
